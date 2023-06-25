@@ -1,0 +1,201 @@
+@font-face {
+    font-family: new;
+    src: url(BagelFatOne-Regular.ttf);
+}
+@font-face {
+    font-family: Dancingscript;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+body{background-color:white;
+}
+header{display: flex;
+}
+#logo{width: 25%;
+    text-align: center;
+}
+#search{ display: flex;
+    width: 50%;
+    text-align: center;
+}
+#formsearch{ width:40%;
+    margin-left: 30%;
+    height: 40px;
+    margin-top: 50px;
+    background-color: #EDEEED;
+    border-radius: 15px;
+
+}
+#formsearch input[type=text]{
+    width: 80%;
+    height:30px;
+    border-width: 0;
+    margin-top:5px;
+    background-color:transparent;
+}
+#formsearch button{ width: 10%;
+    height: 30px;
+}
+#search2 ,#login{margin-top: 60px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#navbar{background-color:lightgray;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin:20px 5%;
+    border-radius: 20px;
+}
+#navlink{
+    width: 96%;
+    text-align: center;
+    margin: 0 2%;
+    height: 50px;
+}
+#navlink a{text-decoration: none;
+    display: block;
+    float: left;
+    width: 12.5%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: Dancingscript;
+}
+
+#navlink a:hover{
+    background-color: #555655;
+    color: white;
+    text-decoration: underline;
+
+}
+#container{
+    display: flex;
+    width: 100%;
+}
+#menubar{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#menubar2{
+    width: 70%;
+    margin-right: 20px;
+}
+.bar{
+    margin-top: 10px;
+}
+.bar table{
+    border:1px,black;
+    border-collapse: collapse;
+}
+.tableq td{background-color: lightgray;
+    height: 30px;
+}
+.tableq th{
+    background-color: #555655;
+}
+.tableq a{
+    text-decoration:none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#slide{
+    display: block;
+    width: 100%;
+    padding-right: 5%;
+}
+#slide button{
+    position: absolute;
+    top:50%;
+    width: 20px;
+    height: 40px;
+    border-width: 0;
+}
+#buttonright{
+    right:40px;
+}
+#slide img{
+    width: 100%;
+}
+#containercon{width:100%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: burlywood;
+    text-align: center;
+    border-width: 2px;
+}
+#containerphu img{border: solid 1px gray;
+    width: 100%;
+    height: 200px;
+}
+#containercon button{
+    width: 134px;
+    height: 26px;
+    background-image: url(muahang.gif);
+    border-width: 0;
+    border-radius: 5px;
+}
+#container h4{color: red;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#listcontainer{flex-wrap: wrap;
+    display: flex;
+}
+#containerphu{
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#contact{
+    width: 95%;
+    height: 70px;
+    background-color: #555655;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+#hotline{
+    width: 70%;
+} 
+#ttll{
+    width:30%;
+    padding-top: 20px;
+
+} 
+footer{
+    width: 95%;
+    margin: 30px 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerleft{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f1{
+    width: 50%;
+}
+.f1 li{
+    list-style-type: none;
+    height: 25px;
+}
+.f1 a{ text-decoration: none;
+    font-size: 14px;
+    color: dodgerblue;
+}
+.f1 h3,.footerright h3{
+    color: red;
+}
+.footerright{
+    width: 50%;
+    font-size: 14px;
+}
+.footerright td,#footerright th{height: 25px;
+}

@@ -1,0 +1,22 @@
+#formlogin{background-color:#def;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 5px 10px;
+    border:solid 2px gray;
+    border-radius: 20px;
+}
+.nametext{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-width:0;
+}
+.name{
+    color: red;
+    font-weight: bold;
+}
+#formlogin button{
+    width: 100px;
+    height: 20px;
+}
